@@ -9,8 +9,6 @@ def fact(x):
 def filter_even(li):
     return list(filter(lambda x:x%2==0, li))
 
-print(filter_even([1,2,3,4,5,6,7,7,8,12]))
-
 # 3
 def square(li):
     return list(map(lambda x:x*x, li))
