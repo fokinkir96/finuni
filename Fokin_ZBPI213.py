@@ -40,7 +40,7 @@ def is_palindrome(string):
             is_pal = False
             break
 
-    return is_pal
+    return 'YES' if is_pal else 'NO'
 
 # 6
 def calculate(path2file):
